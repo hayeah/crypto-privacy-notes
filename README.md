@@ -168,7 +168,9 @@ Reference: [BIP 47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawi
 2. Alice can use the payment code to send 2^32 payments.
 3. Sending is similar to Stealth Addresses.
 
-Essentially using HD wallet to establish a protocol, s.t. keys are generated in a deterministic sequence, and full-scanning of chain is not necessary. SPV wallet compatible.
+Essentially using HD wallet to establish a protocol between two users that want to collaborate, such that keys are generated in a deterministic sequence. Full-scanning of chain is not necessary, because the protocol creates expectation of what the next key should be.
+
+SPV wallet compatible. Adopted by [Samourai Wallet](samouraiwallet.com).
 
 # BTC Privacy Wallets
 
